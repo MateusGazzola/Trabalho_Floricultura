@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.cabecalho {
+    position: fixed;
+    top: 0;
+    left: 30;
+    width: 100%;
+    height: 180px;
+    background-color: rgba(0, 43, 11, 0.9);
+    color: white;
+    padding: 15px 20px;
+    z-index: 1000;
+}
+
+.title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav button {
+    padding: 8px 20px;
+    background-color: #0a6140;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+    background-color: #0a6140;
+}
+
+.conteudo {
+    position: relative;
+    left: 720px;
+    top: 200px;
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+    background-color: rgba(133, 56, 56, 0.1);
+}
+
+.flores h2 {
+    color: #1f7e37;
+    margin-bottom: 10px;
+}
+
+
+.imagens-flores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagens-flores img {
+    width: 200px;
+    height: 140px;
+    object-fit: cover;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+
+
+.botao {
+    padding: 12px 25px;
+    background-color: #0a6140;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+    z-index: 999;
+    text-decoration: none;
+}
+
+.botao:hover {
+    background-color: #0a6140;
+}
+
+.botao.voltar-topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.botao.modal-btn {
+    width: 6%;
+    height: 4%;
+    left: 10px;
+    top: 70px;
+    position: fixed;
+    text-decoration: none;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.modal-content {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 1000px;
+    max-width: 90%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.modal h2 {
+    color: #0a6140;
+}
+
+.modal p {
+    font-size: 1rem;
+    margin: 15px 0;
+}
+
+
+#modal:target {
+    display: flex;
+}
+
+.modal a {
+    padding: 10px 20px;
+    background-color: #0a6140;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.modal a:hover {
+    background-color: #c9302c;
+}
+
+.img_titulo {
+    position: fixed;
+    left: 755px;
+    width: 370px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.menu_inicio {
+    width: 6%;
+    height: 4%;
+    left: 10px;
+    position: fixed;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    background-color: rgba(0, 43, 11, 0.9);
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Floricultura</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <img class="img_titulo" src="img-titulo.jpg" alt="titulo" />
+        <nav>
+            <a href="index"><button class="menu_inicio">Inicio</button></a>
+            <a href="#modal" class="botao modal-btn">Contato</a>
+        </nav>
+        
+    </header>
+
+    <main class="conteudo">
+        <section class="flores">
+            <div class="imagens-flores">
+                <img src="" alt="Orquidea" />
+            </div>
+        </section>
+    </main>
+
+    <main class="conteudo">
+        <section class="flores">
+            <div class="imagens-flores">
+                <img src="" alt="Orquidea" />
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <h2>Informações</h2>
+            <p>Bem-vindo ao Na Brasa! Oferecemos os melhores pratos grelhados da região, preparados com ingredientes
+                frescos e técnicas tradicionais.</p>
+            <h2>Horário de Funcionamento</h2>
+            <p>Segunda a Domingo: 11h às 23h</p>
+            <h2>Contato:</h2>
+            <p>Telefone: (11) 9999-9999</p>
+            <p>Email: contato@nabrasa.com.br</p>
+            <a href="#" class="botao">Fechar</a>
+        </div>
+    </div>
+    
+    <div id="modal" class="modal"></div>
+</body>
+
+</html>
