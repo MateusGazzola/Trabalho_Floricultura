@@ -52,7 +52,7 @@ if ($acao === 'adicionar') {
         foreach ($_SESSION['carrinho'] as $key => $item) {
             if ($item['id'] == $id) {
                 unset($_SESSION['carrinho'][$key]);
-                $_SESSION['carrinho'] = array_values($_SESSION['carrinho']); // Reindexar array
+                $_SESSION['carrinho'] = array_values($_SESSION['carrinho']);
                 break;
             }
         }
