@@ -421,7 +421,7 @@ foreach ($carrinho as $item) {
                         <span>R$ <?php echo number_format($total, 2, ',', '.'); ?></span>
                     </div>
                     <div class="resumo-botoes">
-                        <button class="btn-finalizar" onclick="alert('Funcionalidade de finalização de pedido será implementada em breve!')">
+                        <button class="btn-finalizar" onclick="">
                             Finalizar Compra
                         </button>
                         <a href="carrinho_action.php?acao=limpar" 
